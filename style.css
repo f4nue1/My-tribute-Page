@@ -1,0 +1,122 @@
+html {
+    background-color: #F8EDE3;
+}
+h1 {
+    text-align: center;
+}
+.Tribute {
+    color: midnightblue;
+    position: relative;
+}
+.libre-baskerville-bold {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+#text-div {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  text-align: center;
+  }
+.elon-text {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 30px;
+    position: relative;
+    left: 120px;
+    color: #BC9F8B;
+
+}
+.elon-img {
+    height: 310px;
+    border-radius: 20px;
+    margin-top: 10px
+}
+.elon {
+    height: 410px;
+    width: 450px;
+    align-items: left;
+    display: inline-block;
+    border: 4px solid black;
+    border-radius: 20px;
+    padding-right: 20px;
+    padding-left: 10px;
+    margin-top: 20px;
+    position: relative;
+    left: 40px;
+    margin-right: 50px;
+    margin-left: 29px;
+    }
+.mark-text {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 30px;
+    position: relative;
+    left: 55px ;
+    color: #BC9F8B;
+}
+.mark-img {
+    height: 310px;
+    width: 455px;
+    border-radius: 20px;
+}
+.mark {
+    height: 400px;
+    width: 440px;
+    align-items: left;
+    display: inline-block;
+    border: 4px solid black;
+    border-radius: 20px;
+    align-items: right;
+    position: relative;
+    left: 150px;
+    padding-right: 20px;
+    padding-left: 15px;
+    margin-top: 20px;
+    padding-top: 10px;
+} 
+@media (max-width: 680px) {
+    h1 {
+        text-align: center;
+    }
+    #text-div {
+        text-align: center;
+        display: block;
+
+    }
+    .elon {
+        align-items: center;
+        height: 340px;
+        width: 380px;
+        display: block;
+        position: relative;
+        margin-left: 1px;
+    }
+    .elon-img {
+        height: 240px;
+        width: 389px;
+    }
+    .elon-text {
+       position: relative;
+       left: 100px;
+    }
+    .mark {
+        align-items: center;
+        height: 340px;
+        width: 380px;
+        display: block;
+        position: relative;
+        left: 41px;
+    }
+    .mark-img {
+        height: 240px;
+        width: 389px;
+    }
+    .mark-text {
+       position: relative;
+       left: 29px;
+    }
+}
