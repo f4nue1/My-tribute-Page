@@ -14,19 +14,4 @@ p {
    font-size: 19px;
 }
 
-@media (max-width: 680px) {
-h1 {
-    text-align: center;
-    display: block;
-}
-img {
-    display: block;
-    position: relative;
-    
-}
-p {
-    text-align: center;
-    display: block;
-    clear: left;
-}
-}
+
